@@ -153,6 +153,7 @@ Title*/
   background-repeat: no-repeat;
   padding: 188px 0;
   background-color: #2e2f42;
+  margin: auto;
 }
 
 .title-text {
@@ -398,7 +399,7 @@ Title*/
   height: 100%;
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  ont-weight: 400;
+  font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
