@@ -466,14 +466,16 @@ Title*/
 }
 
 .footer-social-link {
-  fill: #fff;
   width: 40px;
   height: 40px;
   padding: 8px;
-  background-color: #404bbf;
-  border-radius: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-social-link:hover {
@@ -491,10 +493,24 @@ Title*/
   padding: 0 15px;
   margin-left: auto;
   margin-right: auto;
+  align-items: baseline;
 }
 
 .social-icon-list {
   display: flex;
   gap: 16px;
   margin-top: 16px;
+}
+
+.logo-and-text-container {
+  margin-right: 120px;
+}
+
+.footer-second-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
 }
