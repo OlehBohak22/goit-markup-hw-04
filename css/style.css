@@ -380,7 +380,7 @@ Title*/
 .card-container-item:hover {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  transform: translateY(0);
+  transform: translateY(0%);
 }
 
 .box {
@@ -405,18 +405,8 @@ Title*/
   line-height: 1.5;
 }
 
-.overley-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
-  top: 0;
-  transform: translateY(100%);
-}
-
 .card-container-item:hover .overlay {
-  transform: translateY(0);
+  transform: translateY(0%);
 }
 
 /*Footer*/
@@ -497,6 +487,10 @@ Title*/
 .footer-flex-container {
   display: flex;
   gap: 120px;
+  max-width: 1158px;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .social-icon-list {
