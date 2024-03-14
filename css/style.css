@@ -381,7 +381,6 @@ Title*/
 .card-container-item:hover {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  transform: translateY(0%);
 }
 
 .box {
@@ -404,9 +403,6 @@ Title*/
   line-height: 150%;
   letter-spacing: 0.02em;
   line-height: 1.5;
-}
-
-.overlay-text {
 }
 
 .card-container-item:hover .overlay {
@@ -492,7 +488,6 @@ Title*/
 
 .footer-flex-container {
   display: flex;
-  gap: 120px;
   max-width: 1158px;
   padding: 0 15px;
   margin-left: auto;
